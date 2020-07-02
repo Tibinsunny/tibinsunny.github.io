@@ -10,18 +10,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <div class="container"> 
-  <label class="switch">
-   <input type="checkbox" />    <div></div>
-  </label><div class="label">DarkMode</div>
+ 
+
 <div class="main">
   <div class="image"><img src="https://avatars1.githubusercontent.com/u/33937416"></div>
  
 <div class=card>
+ <a href=asd>More About</a>
   <h1>Tibin Sunny</h1>
   <p>Developer,Security Researcher,BugBountyHunter</p>
   <div class="location">
    <h3>India</h3></div>
+   <label class="switch">
+    <input type="checkbox" />    <div></div>
+   </label><div class="label">DarkMode</div>
   <div class="icon">
     <a href="https://github.com/tibinsunny" class="fa fa-github"target="_blank"></a>
     <a href="https://www.instagram.com/tibinsunny95/" class="fa fa-instagram"target="_blank"></a>
@@ -45,6 +47,7 @@
     $(".main").css("background-color","#343a40")
     $(".card").css("color","white")
     $(".label").css("color","white")
+    $(".label").text("WhiteMode")
 
 
     flag=1;
@@ -55,6 +58,7 @@
     $(".main").css("background-color","white")
     $(".card").css("color","black")
     $(".label").css("color","black")
+    $(".label").text("DarkMode")
     flag=0;
   }
   })
