@@ -5,10 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trust Me I am Kind :-) </title>
+    <link rel="stylesheet" href="./css/main.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <div class="container"> 
+  <label class="switch">
+   <input type="checkbox" />    <div></div>
+  </label><div class="label">DarkMode</div>
 <div class="main">
   <div class="image"><img src="https://avatars1.githubusercontent.com/u/33937416"></div>
  
@@ -24,7 +29,34 @@
     
   </div>
   </div>
+ 
 </div>
+
 </body>
-    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+<script>
+  var flag=0;
+  $("input").click(function (){
+    if(flag==0)
+    {
+    $("body").css("background-color","#343a40")
+    $(".main").css("background-color","#343a40")
+    $(".card").css("color","white")
+    $(".label").css("color","white")
+
+
+    flag=1;
+  }
+  else
+  {
+    $("body").css("background-color","white")
+    $(".main").css("background-color","white")
+    $(".card").css("color","black")
+    $(".label").css("color","black")
+    flag=0;
+  }
+  })
+  </script>
 </html>
