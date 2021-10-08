@@ -12,11 +12,20 @@
 <body>
  
 
-<div class="main">
-  <div class="image"><img src="https://avatars1.githubusercontent.com/u/33937416"></div>
- 
+<div id="main-block" class="main">
+  <div class="image" id="image-block">
+    <img id="myimage" style="display: block;" src="https://avatars1.githubusercontent.com/u/33937416">
+    <iframe id="rollit" style="display: none;" class="modest-vid-embed__item"
+    src="https://player.vimeo.com/video/148751763?autoplay=1&loop=1&autopause=0&muted=0"
+    allow="autoplay" width="640" height="360" frameborder="0"
+    webkitallowfullscreen mozallowfullscreen allowfullscreen>
+  </iframe>
+</div>
+    <!-- </div> -->
+
 <div class=card>
- <a href=asd>More About</a>
+ <a id="rollitup" href="#">More About</a>
+ <div id="details" style="display: block;">
   <h1>Tibin Sunny</h1>
   <p>Developer,Security Researcher,BugBountyHunter</p>
   <div class="location">
@@ -28,11 +37,12 @@
     <a href="https://github.com/tibinsunny" class="fa fa-github"target="_blank"></a>
     <a href="https://www.instagram.com/tibinsunny95/" class="fa fa-instagram"target="_blank"></a>
     <a href="https://twitter.com/tibinsunny1" class="fa fa-twitter"target="_blank"></a>
-    
+  </div> 
   </div>
   </div>
  
 </div>
+
 
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -62,5 +72,17 @@
     flag=0;
   }
   })
+
+document.getElementById("rollitup").addEventListener("click",()=>{
+  document.getElementById("main-block").classList.remove("main")
+  document.getElementById("image-block").classList.remove("image")
+  document.getElementById("myimage").style.display="none";
+  document.getElementById("rollit").style.display="block";
+  document.getElementById("details").style.display="none";
+  setTimeout(()=>{
+alert(atob("WW91IEp1c3QgR290IFJpY2sgUm9sbGVk"))
+},10000)
+})
+
   </script>
 </html>
