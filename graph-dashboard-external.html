@@ -1,1 +1,15 @@
 <h1>P4Wn3D</h1>
+ <p id="output">Your message will appear here.</p>
+
+  <script>
+    // Testing a Vuln.. 
+    function getQueryParam(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+
+    const userInput = getQueryParam('payload');
+    if (userInput) {
+      document.getElementById('output').innerHTML = `${userInput}`;
+    }
+  </script>
