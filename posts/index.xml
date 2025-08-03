@@ -2,19 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://example.org/posts/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Aug 2025 15:37:41 +0530</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Aug 2025 23:46:22 +0530</lastBuildDate><atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blackhole in Linux Dev Null</title>
-      <link>http://localhost:1313/posts/blackhole-in-linux-dev-null/</link>
+      <title>Blackhole in Linux /dev/null</title>
+      <link>https://example.org/posts/blackhole-in-linux-dev-null/</link>
       <pubDate>Fri, 01 Aug 2025 15:37:41 +0530</pubDate>
       
-      <guid>http://localhost:1313/posts/blackhole-in-linux-dev-null/</guid>
+      <guid>https://example.org/posts/blackhole-in-linux-dev-null/</guid>
       
-      <description>&lt;p&gt;This is my content related to Null&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;so-heres-the-thing&#34;&gt;So here&amp;rsquo;s the thing&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;Ever since I started using Linux, I kept seeing people write stuff like &lt;code&gt;&amp;gt; /dev/null&lt;/code&gt; in their commands.&lt;br&gt;
+At first, I just copied it without thinking. But today I finally decided to figure out what the hell it actually does. It&amp;rsquo;s actually a black hole, a vacuum, a void where Goliath lives (from the Loki series).&lt;/p&gt;
+&lt;h2 id=&#34;what-is-devnull&#34;&gt;What is /dev/null?&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;/dev/null&lt;/code&gt; is actually a Linux file that sucks up anything fed to it. &lt;code&gt;stdout&lt;/code&gt; is consumed. If you check &lt;code&gt;/dev/null&lt;/code&gt;, it&amp;rsquo;s actually a valid file. Any file redirection  into &lt;code&gt;/dev/null&lt;/code&gt; will be discarded into the vacuum. Using a file descriptor like &lt;code&gt;2&lt;/code&gt;, we can throw &lt;code&gt;stderr&lt;/code&gt; to &lt;code&gt;/dev/null&lt;/code&gt;.&lt;/p&gt;</description>
       
     </item>
     
