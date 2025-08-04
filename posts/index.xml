@@ -23,17 +23,13 @@ At first, I just copied it without thinking. But today I finally decided to figu
     </item>
     
     <item>
-      <title></title>
+      <title>Modern Web Is Junk</title>
       <link>https://example.org/posts/modern-webdev-is-junk/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 20 Jul 2025 23:46:22 +0530</pubDate>
       
       <guid>https://example.org/posts/modern-webdev-is-junk/</guid>
       
-      <description>&lt;p&gt;date = &amp;lsquo;2025-08-02T23:46:22+05:30&amp;rsquo;
-draft = false
-title = &amp;lsquo;Modern Web Is Junk&amp;rsquo;
-+++&lt;/p&gt;
-&lt;h3 id=&#34;the-modern-web-is-a-mess&#34;&gt;The Modern Web Is a Mess&lt;/h3&gt;
+      <description>&lt;h2 id=&#34;the-modern-web-is-a-mess&#34;&gt;The Modern Web Is a Mess&lt;/h2&gt;
 &lt;p&gt;I was just looking up a carpet the other day on my friend’s laptop—and wow, what a disaster. The site took like 3 full seconds to load, and I had to close a bunch of pop-ups, cookie banners, and those annoying “subscribe to our newsletter” boxes just to even &lt;em&gt;see&lt;/em&gt; the page. The actual useful content? Could’ve loaded in under 20KB and half a second, honestly. And every page under the “suggested” section looked exactly the same. Like, who are we building these sites for?&lt;/p&gt;</description>
       
     </item>
